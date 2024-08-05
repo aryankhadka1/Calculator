@@ -1,0 +1,75 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+body{
+    align-items: center;
+    background: linear-gradient(320deg, pink, yellow, limegreen, skyblue);
+    font-display: swap;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+}
+.wrapper{
+    justify-content: center;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    color: black;
+    border: 1px solid aliceblue;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    height: 500px;
+    width: 400px;
+    padding: 20px 35px;
+}
+.screen{
+    background: rgb(247, 247, 217);
+    border-radius: 16px;
+    font-size: 40px;
+    padding: 20px;
+    text-align: right;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    overflow: auto;
+    font-family: "Macondo", sans-serif;
+}
+.calcbutton-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+.calcbutton{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.50);
+    color: black;
+    border: 1px solid grey;
+    border-radius: 16px;
+    flex-basis: 20%;
+    font-size: 30px;
+    height: 60px;
+    font-family: "Macondo", sans-serif;
+}
+.calcbutton:last-child{
+    background-color: rgb(255, 128, 0);
+    color: aliceblue;
+    font-size: 35px;
+    font-family: "Macondo", sans-serif;
+}
+.calcbutton:hover{
+    background-color: inherit;
+}
+.calcbutton:active{
+    background-color: rgb(247, 247, 217);
+}
+.calcbutton:last-child:hover{
+    background-color: rgb(183, 51, 51);
+}
+.calcbutton:last-child:active{
+    background-color: rgb(235, 56, 56);
+}
+#firstThree:hover{
+    background-color: rgb(253, 107, 107);
+}
